@@ -20,7 +20,6 @@ export const fetchAPokemon = (pokemon, success, error) => {
 };
 
 export const createPokemon = (pokemon, success, error) => {
-  debugger
   $.ajax({
     type: 'POST',
     url: '/api/pokemon',

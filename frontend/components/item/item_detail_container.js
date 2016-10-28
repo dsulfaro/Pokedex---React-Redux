@@ -7,6 +7,6 @@ const mapStateToProps = (state, ownProps) => {
   return ({
 
   itemDetail: selectPokemonItem(state, ownProps.params.itemId)
-})};
+});};
 
 export default connect(mapStateToProps)(ItemDetail);
